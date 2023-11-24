@@ -1,0 +1,122 @@
+
+...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1er Paso: Minimizar (TSP)
+
+2do Paso: Selección de los padres.
+		*Ruleta: Intervalos de selección.
+		*Elitista: Los mejores individuos.
+
+3er Paso: Cruzamiento (Explotación).
+		Un punto: |
+		Dos Puntos: | |
+		Uniforme: > o < a la prob 0.5
+		Ordenado (TSP): Seleccionar segmento y se 
+				aplica ordenamiento a lo 
+                                otro.
+4to Paso: Aplicar Mutación (Exploración).
+		Bit-Flip: Cambiar según probabilidad.
+		Swap: Seleccionar dos posiciones al azar
+		      e invertirlas.
+
+5to Paso: Selección de la población:
+		(X,Y)= La próxima generación es solo de 
+                       hijos
+		(X+Y)= La próxima generación es de padres 
+                       e hijos
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
